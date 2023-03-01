@@ -1,10 +1,56 @@
-body {
-  max-width: 320px;
+html{
+  font-family: sans-serif;
+  color: whitesmoke;
+  background-color: black;
+  display: flex;
+}
+body{
+  max-width: 375px;
   margin: auto;
-  background: #ddd;
+  background-image: url(../img/fond.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+p{
+  font-size: 15px;
+  padding:0 15px 0 15px;
+  font-family: 'Roboto Slab', serif;
+  font-weight:900;
+  line-height: 18pt;
 }
 
 img {
   display: block;
-  max-width: 100%;
+  max-width: 100%
 }
+
+h1{
+  display: inline-flex;
+  justify-content: center;
+  font-size: 18px;
+}
+ h2 {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+ }
+
+ hr{
+  border: solid 2.5px white;
+  margin: 10px;
+  border-radius: 180px;
+ }
+
+.red-element{
+  color: red;
+}
+
+.blue-element{
+  color: aqua;
+}
+header{
+  background-color: black;
+  position: fixed;
+}
+
