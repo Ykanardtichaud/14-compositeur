@@ -22,7 +22,10 @@ p{
 
 img {
   display: block;
-  max-width: 100%
+  max-width: 100%;
+  margin-left: 22.5px;
+  
+
 }
 
 h1{
@@ -48,6 +51,20 @@ h1{
 
 .blue-element{
   color: aqua;
+}
+
+.album{
+  width: 330px  ;
+}
+
+em{
+  font-style: normal;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 header{
   background-color: black;
